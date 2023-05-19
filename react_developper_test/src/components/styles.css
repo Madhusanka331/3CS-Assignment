@@ -1,0 +1,44 @@
+body{
+    margin: 0;
+}
+.container{
+    align-self: center;
+    border-radius: 10px;
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: space-around;
+    gap: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 720px;
+    padding: 20px;
+}
+.card {
+    border: 1px solid #000;
+    border-radius: 10px;
+    flex-direction: column;
+    height: 200px;
+    text-align: center;
+    width: 200px;
+    cursor: pointer;
+}
+
+.title{
+    text-align: center;
+    font-size: 30px;
+    background-color: #007bff;
+    color: white;
+    margin: 0;
+}
+
+img{
+    border-radius: 50%;
+}
+
+.h2{
+    margin-left: 20px;
+}
+
+.p{
+    color: gray;
+}
