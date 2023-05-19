@@ -25,7 +25,7 @@ const HomePage = () => {
       <div className="container">
         {data.map((el) => (
           <>
-            <div className="card" key={el.id} onClick={() => navigate(`/users/${el.id}`)}>
+            <div className="card single" key={el.id} onClick={() => navigate(`/users/${el.id}`)}>
               <img src={el.avatar} alt={el.first_name} />
               <p>{el.first_name}</p>
               <p className="p">{el.email}</p>
